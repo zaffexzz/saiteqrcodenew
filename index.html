@@ -1,0 +1,154 @@
+n<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — RotaQR</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0D0D0D;
+      color: #ccc;
+      line-height: 1.7;
+    }
+    header {
+      background: #111;
+      border-bottom: 2px solid #F5C518;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .logo {
+      width: 44px;
+      height: 44px;
+      background: #F5C518;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 900;
+      color: #000;
+    }
+    header h1 { font-size: 22px; color: #fff; font-weight: 900; }
+    header p { font-size: 13px; color: #888; }
+    main {
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #F5C518;
+      margin: 40px 0 12px;
+    }
+    p { margin-bottom: 12px; color: #aaa; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; color: #aaa; }
+    .updated {
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    a { color: #F5C518; text-decoration: none; }
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 13px;
+      color: #444;
+      border-top: 1px solid #1e1e1e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">▣</div>
+  <div>
+    <h1>RotaQR</h1>
+    <p>Política de Privacidade</p>
+  </div>
+</header>
+
+<main>
+  <p class="updated">Última atualização: junho de 2026</p>
+
+  <p>
+    Esta Política de Privacidade descreve como o aplicativo <strong style="color:#fff">RotaQR</strong>
+    coleta, usa e protege as informações dos usuários. Ao utilizar o app, você concorda com
+    as práticas descritas aqui.
+  </p>
+
+  <h2>1. Informações que coletamos</h2>
+  <ul>
+    <li><strong style="color:#ddd">Nome e e-mail</strong> — fornecidos no cadastro ou obtidos via login com Google, usados para identificar sua conta.</li>
+    <li><strong style="color:#ddd">Endereços de entrega</strong> — inseridos pelo usuário restaurante para geração de QR Codes de entrega.</li>
+    <li><strong style="color:#ddd">Localização</strong> — usada pelo motoboy para abrir rotas no Google Maps com maior precisão. Nunca armazenamos sua localização em servidores.</li>
+    <li><strong style="color:#ddd">Histórico de pedidos e entregas</strong> — armazenado para consulta dentro do app.</li>
+  </ul>
+
+  <h2>2. Como usamos suas informações</h2>
+  <ul>
+    <li>Autenticar e identificar sua conta no app</li>
+    <li>Gerar QR Codes com endereços de entrega</li>
+    <li>Exibir histórico de pedidos e entregas</li>
+    <li>Enviar e-mail de confirmação de cadastro</li>
+    <li>Melhorar a precisão das rotas do motoboy</li>
+  </ul>
+
+  <h2>3. Compartilhamento de dados</h2>
+  <p>
+    Não vendemos nem compartilhamos seus dados pessoais com terceiros para fins comerciais.
+    Utilizamos os seguintes serviços para operação do app:
+  </p>
+  <ul>
+    <li><strong style="color:#ddd">Google Sign-In</strong> — para autenticação via conta Google</li>
+    <li><strong style="color:#ddd">Resend</strong> — para envio de e-mails de confirmação</li>
+    <li><strong style="color:#ddd">MongoDB</strong> — para armazenamento seguro dos dados</li>
+    <li><strong style="color:#ddd">Google Maps</strong> — para abertura de rotas de entrega</li>
+  </ul>
+
+  <h2>4. Localização</h2>
+  <p>
+    O app solicita permissão de localização apenas para usuários no modo Motoboy.
+    A localização é usada exclusivamente para definir o ponto de partida no Google Maps
+    e nunca é enviada ou armazenada em nossos servidores.
+  </p>
+
+  <h2>5. Segurança</h2>
+  <p>
+    Os dados são transmitidos via HTTPS e armazenados em banco de dados seguro.
+    Senhas são armazenadas com hash bcrypt. QR Codes de entrega são criptografados
+    com AES-256 e autenticados com HMAC.
+  </p>
+
+  <h2>6. Retenção de dados</h2>
+  <p>
+    Seus dados são mantidos enquanto sua conta estiver ativa. Você pode solicitar
+    a exclusão da sua conta e de todos os seus dados a qualquer momento pelo e-mail abaixo.
+  </p>
+
+  <h2>7. Seus direitos</h2>
+  <ul>
+    <li>Acessar os dados que temos sobre você</li>
+    <li>Corrigir informações incorretas</li>
+    <li>Solicitar exclusão da sua conta e dados</li>
+  </ul>
+
+  <h2>8. Contato</h2>
+  <p>
+    Dúvidas sobre esta política? Entre em contato:
+    <br />
+    <a href="mailto:contato@qrrota.app">contato@qrrota.app</a>
+  </p>
+</main>
+
+<footer>
+  © 2026 RotaQR — Todos os direitos reservados
+</footer>
+
+</body>
+</html>
